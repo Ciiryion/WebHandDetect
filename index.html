@@ -1,3 +1,19 @@
-<header>Test Header</header>
-<article>mon article</article>
-<footer>Test Footer</footer>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hand Detect</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <script src="src/scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div class="columns">
+      <p>
+        <button type="button" onclick="getStream('video')">Grab video</button>
+      </p>
+      <video autoplay></video>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "webhanddetect",
+  "version": "1.0.0",
+  "description": "A website that can detect raising hands and draw a circle around who first raise his hand",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
