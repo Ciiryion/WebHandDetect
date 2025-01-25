@@ -21,5 +21,14 @@
       "type": "image/webp",
       "purpose": "any"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "src/img/screenshot.webp",
+      "sizes": "390x720",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Interface de l'application RaiseHand"
+    }
   ]
 }
