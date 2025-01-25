@@ -3,17 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hand Detect</title>
+    <meta name="description" content="Detection de main levee" />
+    <title>RaiseHandDetection</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="src/styles/style.css" />
     <script src="src/scripts/script.js" defer></script>
   </head>
   <body>
-    <div class="columns">
-      <p>
-        <button type="button" onclick="getStream('video')">Grab video</button>
-      </p>
+    <header>
+      <h1>RaiseHandDetection</h1>
+    </header>
+    <p>
+      RaiseHandDetection permet de détecter la première main qui a été levé
+      devant la caméra. Pour une meilleure expérience, mettez vous en format
+      paysage !
+    </p>
+    <div class="game">
       <video autoplay></video>
+      <br />
+      <button type="button" onclick="nextQuestion()">Prochaine question</button>
     </div>
+    <footer><p>Site web créé par VERON Frédéric</p></footer>
   </body>
 </html>

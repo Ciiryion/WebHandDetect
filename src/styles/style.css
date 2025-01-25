@@ -1,8 +1,37 @@
 body {
   background: lightblue;
+  margin: 0;
 }
 
-video {
-  height: 180px;
-  width: 240px;
+header {
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 200%;
+  margin: 0;
+}
+
+div.game {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/*Ecran en format paysage*/
+@media (orientation: landscape) {
+  video {
+    width: 70%;
+  }
+}
+
+/*Ecran en format portrait*/
+@media (orientation: portrait) {
+  video {
+    width: 75%;
+  }
 }

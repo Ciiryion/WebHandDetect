@@ -10,44 +10,16 @@
   "start_url": "/",
   "icons": [
     {
-      "src": "src/icons/icon-192x192-any.png",
+      "src": "src/img/Logo192.webp",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any"
     },
     {
-      "src": "src/icons/icon-192x192-maskable.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "src/icons/icon-512x512-any.png",
+      "src": "src/img/Logo512.webp",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any"
-    },
-    {
-      "src": "src/icons/icon-512x512-maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "src/screenshots/narrow.png",
-      "sizes": "390x720",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Interface de l'application TodoList"
-    },
-    {
-      "src": "src/screenshots/wide.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Interface de l'application TodoList"
     }
   ]
 }
