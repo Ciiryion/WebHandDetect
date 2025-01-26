@@ -1,20 +1,17 @@
 body {
-  background: lightblue;
+  background: whitesmoke;
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   background-color: aquamarine;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 200%;
-  margin: 0;
-}
-
-div.game {
-  display: flex;
-  justify-content: center;
+  font-size: large;
 }
 
 footer {
@@ -24,6 +21,11 @@ footer {
 
 /*Ecran en format paysage*/
 @media (orientation: landscape) {
+  div.game {
+    display: flex;
+    justify-content: center;
+  }
+
   video {
     width: 70%;
   }
@@ -31,7 +33,13 @@ footer {
 
 /*Ecran en format portrait*/
 @media (orientation: portrait) {
+  div.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   video {
-    width: 75%;
+    width: 80%;
   }
 }
