@@ -19,3 +19,9 @@ Pour le moment j'ai donc laissé un accès à la webcam sans l'intégration de l
 
 L'image pour le logo a été récupérée ici : https://www.flaticon.com/fr/icone-gratuite/paume-de-la-main_3562235?term=hand&page=1&position=26&origin=search&related_id=3562235
 L'API qui devait être utilisé : https://ai.google.dev/edge/mediapipe/solutions/vision/gesture_recognizer?hl=fr
+
+# Améliorations possibles :
+
+- Ajouter l'API de détection de main pour que le site soit fonctionnel
+- Création d'un logo et création d'un direction artistique pour donner une identitée visuelle au site
+- Intégration de différents modes de jeux interne au site comme des quiz ou une section blind test

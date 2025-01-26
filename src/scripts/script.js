@@ -25,6 +25,7 @@ function nextQuestion() {
   console.log("Question suivante");
 }
 
+// Lancement de la caméra dès l'arrivée sur le site :
 var type = "video";
 
 if (

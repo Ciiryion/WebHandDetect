@@ -1,19 +1,23 @@
+/* Choix de la font et de la couleur de fond */
 body {
   background: whitesmoke;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Mise en forme de la barre en haut du site */
 header {
   background-color: aquamarine;
   display: flex;
   justify-content: center;
 }
 
+/* Titre du site */
 h1 {
   font-size: large;
 }
 
+/* Bas de page */
 footer {
   display: flex;
   justify-content: center;

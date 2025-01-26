@@ -5,24 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Detection de main levee" />
     <title>RaiseHandDetection</title>
+    <!-- manifest.json permet au site d'être une web app -->
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="src/styles/style.css" />
     <script src="src/scripts/script.js" defer></script>
   </head>
+
   <body>
+    <!-- Titre du site affiché tout en haut -->
     <header>
       <h1>RaiseHandDetection</h1>
     </header>
+
+    <!-- Paragraphe d'accueil -->
     <p>
       RaiseHandDetection permet de détecter la première main qui a été levé
       devant la caméra. Pour une meilleure expérience, mettez vous en format
       paysage !
     </p>
+
+    <!-- la div "game" contient la webcam ainsi que le bouton vers la question suivante -->
     <div class="game">
-      <video autoplay><track /></video>
+      <video autoplay aria-label="WebCam"><track /></video>
       <br />
-      <button type="button" onclick="nextQuestion()">Prochaine question</button>
+      <button type="button" aria-label="button" onclick="nextQuestion()">
+        Prochaine question
+      </button>
     </div>
+
+    <!-- Bas de page -->
     <footer><p>Site web créé par VERON Frédéric</p></footer>
   </body>
 </html>
